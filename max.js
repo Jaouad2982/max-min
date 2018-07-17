@@ -1,4 +1,21 @@
+function max(numbers){
+    let max = 0;
+    let i = 0;
+    while(i < numbers.length) {
+    if (numbers[i] > max) {
+        max = numbers[i];
+    }
+    i = i + 1; 
+}
+return max;
+}
 
+let numb = [1,2,3,4,100,45,98];
+
+console.log(max(numb));
+
+
+//==============
 function max(numbers){
     let length = numbers.length;
     let min = numbers[0];
